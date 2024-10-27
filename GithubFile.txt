@@ -1,0 +1,25 @@
+1. At first create a repository in git bash 
+"mkdir repo-name"
+2. Navigating to that repo using 
+"cd repo-name
+3. Initializing a git repository 
+"git init"
+4. Checking git status
+"git status"
+5. If the branch is master switch it to main using 
+"git checkout -b main"
+6. After that initialize it again with "git init" then move to that folder which contains you files or folder 
+"cp -r ~/downloads/learn-jenkins-app ." like this
+7. After that add staged files like 
+"git add ."
+8. Commit the changes in it
+"git commit -m "initial commit changes" "
+9. Add your remote repo url from the repo you created in GitHub like https 
+"git remote add origin https://github.com/malepatiganesh/Jenkins_Started.git "
+10. At last push the files into the main branch 
+"git push -u origin main" Even though after pushing when get an error in it do the push like this
+"git push -u origin main --force"
+Then it will reflect to your GitHub account and files will be added automatically.
+
+
+
